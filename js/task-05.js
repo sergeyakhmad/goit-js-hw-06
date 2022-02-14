@@ -1,6 +1,6 @@
 const nameInputEl = document.querySelector("#name-input");
 const nameOutputEl = document.querySelector("#name-output");
-const userName = nameOutputEl.textContent;
+const userName = 'Anonymous';
 
 nameInputEl.addEventListener("input", onNameInputElChange);
 
